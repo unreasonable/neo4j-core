@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version  = Neo4j::Core::VERSION
   s.required_ruby_version = '>= 2.1.0'
 
-  s.authors  = 'Andreas Ronge, Chris Grigg, Brian Underwood'
-  s.email    = 'andreas.ronge@gmail.com, chris@subvertallmedia.com, brian@brian-underwood.codes'
+  s.authors  = 'Andreas Ronge, Chris Grigg, Brian Underwood, Paul Arterburn'
+  s.email    = 'andreas.ronge@gmail.com, chris@subvertallmedia.com, brian@brian-underwood.codes, paul@sixteenseven.com'
   s.homepage = 'https://github.com/neo4jrb/neo4j-core'
   s.summary = 'A basic library to work with the graph database Neo4j.'
   s.license = 'MIT'
@@ -30,7 +30,7 @@ DESCRIPTION
     'bug_tracker_uri' => 'https://github.com/neo4jrb/neo4j-core/issues'
   }
 
-  s.add_dependency('activesupport', '>= 4.0')
+  s.add_dependency('activesupport', '>= 7.0')
   s.add_dependency('faraday', '>= 0.9.0')
   s.add_dependency('faraday_middleware', '>= 0.10.0')
   s.add_dependency('faraday_middleware-multi_json')

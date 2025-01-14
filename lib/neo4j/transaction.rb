@@ -7,9 +7,7 @@ module Neo4j
 
     # Provides a simple API to manage transactions for each session in a thread-safe manner
     class TransactionsRegistry
-      extend ActiveSupport::PerThreadRegistry
-
-      attr_accessor :transactions_by_session_id
+      thread_mattr_accessor :transactions_by_session_id
     end
 
     class Base
